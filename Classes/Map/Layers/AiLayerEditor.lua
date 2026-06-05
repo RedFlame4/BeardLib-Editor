@@ -26,11 +26,11 @@ function AiEditor:init(parent)
     self._nav_surface_unit = Idstring("core/units/nav_surface/nav_surface")
     self._patrol_point_unit = "core/units/patrol_point/patrol_point"
     self._group_states = {
-        "empty",
-        "airport",
-        "besiege",
-        "street",
-        "zombie_apocalypse"
+        -- "empty",
+        -- "airport",
+        "besiege"
+        -- "street",
+        -- "zombie_apocalypse"
     }
 
     self._ai_settings = {}
